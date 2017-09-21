@@ -19,6 +19,7 @@ describe 'Backer - #back_project' do
 
     # If we are calling this method in this way, what type of argument is it taking?
     # We are actually passing in a Project object! Cool, huh?
+    
     spencer.back_project(magic)
 
     expect(spencer.backed_projects).to include(magic)
